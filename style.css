@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Management System</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("c1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.heading{
+    background: #000000e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.heading img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #ffd700;
+}
+
+.heading h1{
+    color: white;
+    font-size: 26px;
+}
+
+nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ffd700;
+}
+
+/* SECTION COMMON */
+section{
+    padding: 80px 40px;
+    color: white;
+}
+
+.section-box{
+    max-width: 1100px;
+    margin: auto;
+    background: rgba(0,0,0,0.75);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+section h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #ffd700;
+    text-align: center;
+}
+
+section p{
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* HOME */
+.hero-buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-buttons button{
+    padding: 12px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: #ffd700;
+}
+
+.hero-buttons .outline{
+    background: transparent;
+    border: 2px solid #ffd700;
+    color: #ffd700;
+}
+
+/* GRID BOXES */
+.info-grid{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.info-box{
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.info-box h3{
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.info-box ul{
+    padding-left: 18px;
+}
+
+.info-box li{
+    line-height: 1.7;
+}
+
+/* FOOTER */
+.footer{
+    background: #000000e0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
