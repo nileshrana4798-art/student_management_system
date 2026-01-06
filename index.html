@@ -4,177 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Management System</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<header class="heading">
-    <div class="logo-text">Student Management System</div>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#features">Features</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#roles">Roles</a>
-    </nav>
-</header>
-
-<section id="home">
-    <div class="section-box">
-        <h2>Welcome to Student Management System</h2>
-        <p>
-            A complete digital solution designed to manage student information,
-            academic records, attendance, exams and administration efficiently
-            on a single platform.
-        </p>
-
-        <div class="hero-buttons">
-            <button onclick="location.href='#about'">Learn More</button>
-            <button class="outline" onclick="location.href='#features'">Explore Features</button>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+                <h1>Student Management</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="students.html">Students</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
         </div>
+    </header>
 
-        <div class="info-grid">
-            <div class="info-box">
-                <h3>Smart System</h3>
-                <p>Automates academic and administrative processes digitally.</p>
-            </div>
-            <div class="info-box">
-                <h3>Secure Data</h3>
-                <p>Student information is protected with login authentication.</p>
-            </div>
-            <div class="info-box">
-                <h3>Easy Access</h3>
-                <p>Students and teachers can access data anytime.</p>
-            </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Student Management System</h2>
+            <p>Manage student data efficiently and easily.</p>
+            <a href="students.html" class="btn">View Students</a>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="about">
-    <div class="section-box">
-        <h2>About the System</h2>
-
-        <div class="info-grid">
-            <div class="info-box">
-                <h3>Purpose</h3>
-                <p>The system reduces manual paperwork and manages student information digitally.</p>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-box">
+                <h3>Add Student</h3>
+                <p>Easily add new student records with complete details.</p>
             </div>
-
-            <div class="info-box">
-                <h3>How It Works</h3>
-                <p>Data is stored in a database and accessed through role based login.</p>
+            <div class="feature-box">
+                <h3>View Students</h3>
+                <p>Check student list and search student records quickly.</p>
             </div>
-
-            <div class="info-box">
-                <h3>Target Users</h3>
-                <p>Administrators, teachers and students use the system according to their roles.</p>
+            <div class="feature-box">
+                <h3>Reports</h3>
+                <p>Generate performance and attendance reports.</p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="features">
-    <div class="section-box">
-        <h2>System Features</h2>
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About System</h2>
+            <p>This Student Management System helps schools and colleges keep track of student information efficiently with easy access and secure data handling.</p>
+        </div>
+    </section>
 
-        <div class="info-grid">
-            <div class="info-box">
-                <h3>Student Module</h3>
-                <ul>
-                    <li>Registration</li>
-                    <li>Profile Management</li>
-                    <li>Attendance View</li>
-                    <li>Result Access</li>
-                </ul>
-            </div>
-
-            <div class="info-box">
-                <h3>Teacher Module</h3>
-                <ul>
-                    <li>Attendance Update</li>
-                    <li>Marks Entry</li>
-                    <li>Student Performance</li>
-                </ul>
-            </div>
-
-            <div class="info-box">
-                <h3>Admin Module</h3>
-                <ul>
-                    <li>User Management</li>
-                    <li>Course Control</li>
-                    <li>Report Generation</li>
-                </ul>
-            </div>
-
-            <div class="info-box">
-                <h3>Fee & Exam</h3>
-                <ul>
-                    <li>Fee Records</li>
-                    <li>Payment Status</li>
-                    <li>Exam Results</li>
-                </ul>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Student Management System. All rights reserved.</p>
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
             </div>
         </div>
-    </div>
-</section>
+    </footer>
 
-<section id="benefits">
-    <div class="section-box">
-        <h2>Benefits</h2>
-
-        <div class="info-grid">
-            <div class="info-box">
-                <h3>For Institution</h3>
-                <p>Improves efficiency and reduces errors.</p>
-            </div>
-            <div class="info-box">
-                <h3>For Teachers</h3>
-                <p>Saves time and simplifies academic work.</p>
-            </div>
-            <div class="info-box">
-                <h3>For Students</h3>
-                <p>Quick access to academic information.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="roles">
-    <div class="section-box">
-        <h2>Roles & Security</h2>
-
-        <div class="info-grid">
-            <div class="info-box">
-                <h3>User Roles</h3>
-                <ul>
-                    <li>Administrator</li>
-                    <li>Teacher</li>
-                    <li>Student</li>
-                </ul>
-            </div>
-
-            <div class="info-box">
-                <h3>Security</h3>
-                <ul>
-                    <li>Login Authentication</li>
-                    <li>Role Based Access</li>
-                    <li>Secure Database</li>
-                </ul>
-            </div>
-
-            <div class="info-box">
-                <h3>Future Scope</h3>
-                <p>Can be extended with mobile app, online payment and cloud support.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<footer class="footer">
-    <p>© 2025 Student Management System</p>
-    <p>Designed for Educational Institutions</p>
-</footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
